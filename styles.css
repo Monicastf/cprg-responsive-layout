@@ -13,10 +13,6 @@ sans-serif font for whole site
 header{
     background-color: #120323;
     color: #97bf04;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     padding: 10px;
 
     img{
@@ -32,7 +28,6 @@ header{
     flex-direction: column;
     justify-content: center;
     margin-bottom: 20px;
-    /*figure out why image isnt being affected*/
 }
 main{
     img{
@@ -51,4 +46,31 @@ footer{
     text-align: center;
     padding: 30px;
 }
-/* padding and margin around background colours*/
+
+/*Responsive Styles*/
+@media screen and (max-width: 768px) {
+    *{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: small;
+        img{
+            max-width: 120px;
+            max-height: 120px;
+            height: auto;
+        }
+
+    main{
+        img{
+            align-self: center;
+            max-width: 100%;
+        }
+    }
+    }
+}
