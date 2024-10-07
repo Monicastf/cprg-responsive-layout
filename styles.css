@@ -14,16 +14,41 @@ header{
     background-color: #120323;
     color: #97bf04;
     text-align: center;
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+
+    img{
+        max-width: 100px;
+        max-height: 100px;
+        height: auto;
+        align-self: center;
+    }
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    /*figure out why image isnt being affected*/
+}
+main{
+    img{
+        border: 5px solid #d9043d;
+    }
 }
 
 aside{
     background-color: #97bf04;
+    padding: 30px;
 }
 
 footer{
     background-color: #d9043d;
     color: white;
     text-align: center;
+    padding: 30px;
 }
 /* padding and margin around background colours*/
