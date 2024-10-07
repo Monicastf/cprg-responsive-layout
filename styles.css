@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+header background color & name of animal: #120323
+sidebar background colour: #97bf04
+footer background colour & image frame: #d9043d
+sans-serif font for whole site
+*/
+
+header{
+    background-color: #120323;
+    color: #97bf04;
+    text-align: center;
+    
+}
+
+aside{
+    background-color: #97bf04;
+}
+
+footer{
+    background-color: #d9043d;
+    color: white;
+    text-align: center;
+}
+/* padding and margin around background colours*/
